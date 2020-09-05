@@ -1,0 +1,23 @@
+:root{
+    --montserrat: 'Montserrat', sans-serif;
+    --color-black: #00343D;
+    --color-blue: #1292EE;
+}
+
+.container{
+    margin: 0 2rem;
+}
+.home_title-content{
+    margin-top: 2rem;
+    margin-left: 9rem;
+}
+.home_title, .home_dev{
+    font-family: var(--montserrat);
+    font-size: 3em;
+    color: var(--color-black);
+    font-weight: 600;
+    margin: 0;
+}
+.home_dev{
+    color:var(--color-blue) ;
+}

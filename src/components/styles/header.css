@@ -1,3 +1,68 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+ */
+ :root{
+     --montserrat: 'Montserrat', sans-serif;
+     --color-black: #00343D;
+     --color-blue: #1292EE;
+ }
+
 .header{
-    background: red;
+    margin: 0;
+    padding:0;
+    height: 60px;
+    background: rgb(248, 249, 250);
+    -webkit-box-shadow:0px 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: 0px 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    box-shadow: 0px 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.header_content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 0 2rem;
+    height: 100%;
+}
+.header_logo{
+    margin: auto 0;
+}
+.navbar_content{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    list-style: none;
+
+}
+.nav_content{
+    display: flex;
+    align-items: center;
+}
+.navbar_item{
+    margin-right: 2rem;
+}
+.navbar_link{
+    text-decoration:none ;
+    font-family: var(--montserrat);
+    font-weight: 500;
+}
+.logo{
+    font-family: var(--montserrat);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.4em;
+    color: var(--color-black);
+}
+.item_contact{
+    margin-right: 0;
+}
+.button_contact{
+    color: var(--color-blue);
+    border: 2px solid var(--color-blue);
+    border-radius: 5px;
+    padding: .6em;
+    transition: ease-in-out .3s;
+}
+.button_contact:hover{
+    background: var(--color-blue);
+    color: #ffffff;
 }

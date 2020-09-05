@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from './pages/Home'
-import About from './pages/About'
+import Works from './pages/Works'
 import Contact from './pages/Contact'
 import Header from './Organisms/Header'
 
@@ -11,7 +11,7 @@ const App = () =>(
     <Header />
     <Switch>
       <Route path="/" exact component={Home} />
-      <Route path="/about" exact component={About} />
+      <Route path="/works" exact component={Works} />
       <Route path="/contact" exact component={Contact} />
     </Switch>
   </Router>

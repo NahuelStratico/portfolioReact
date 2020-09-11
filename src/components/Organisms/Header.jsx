@@ -28,8 +28,8 @@ const Header = () => {
                     <div className="nav_content">
                         <nav className="navbar">
                             <ul className="navbar_content">
-                                <li className="navbar_item"><NavLink className="navbar_link" to="/">Inicio</NavLink></li>
-                                <li className="navbar_item"><NavLink className="navbar_link" to="/works">Trabajos</NavLink></li>
+                                <li className="navbar_item"><NavLink className="navbar_link link" to="/">Inicio</NavLink></li>
+                                <li className="navbar_item"><NavLink className="navbar_link link" to="/works">Trabajos</NavLink></li>
                                 <li className="navbar_item item_contact"><NavLink className="navbar_link button_contact" to="/contact">Contacto</NavLink></li>
                             </ul>
                         </nav>
@@ -57,6 +57,11 @@ const Header = () => {
                         </li>
                     )
                 })}
+                <li className="nav-text">
+                    <a href="www.linkedin.com/in/nahuelstratico" target="blank">
+                        <FaIcons.FaLinkedinIn/> 
+                    </a>
+                </li>
             </ul>
             </div>
         </Fragment>   

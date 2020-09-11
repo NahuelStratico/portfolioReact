@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 
 export const Sidebar = [
     {
@@ -15,5 +15,5 @@ export const Sidebar = [
         title:'Contact',
         path:'/contact',
         cName:'nav-text'
-    },
+    }
 ]

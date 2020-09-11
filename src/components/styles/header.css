@@ -29,21 +29,41 @@ font-family: 'Montserrat', sans-serif;
 .navbar_content{
     display: flex;
     flex-direction: row;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     list-style: none;
-
+    margin: 0;
+    height: 100%;
 }
-.nav_content{
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* .nav_content{
     display: flex;
     align-items: center;
-}
+    margin: 0;
+    height: 100%;
+} */
 .navbar_item{
     margin-right: 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navbar_link{
     text-decoration:none ;
     font-family: var(--montserrat);
     font-weight: 500;
+}
+.link{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo{
     font-family: var(--montserrat);
@@ -87,7 +107,7 @@ font-family: 'Montserrat', sans-serif;
         width: 100%;
     }
     .menu-bars{
-        font-size: 2em;
+        font-size: 1.5em;
         background: none;
         color: var(--color-blue);
     }

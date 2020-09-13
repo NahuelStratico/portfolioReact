@@ -2,17 +2,17 @@ import React from 'react'
 
 export const Sidebar = [
     {
-        title:'Home',
+        title:'Inicio',
         path:'/',
         cName:'nav-text'
     },
     {
-        title:'Works',
+        title:'Trabajos',
         path:'/works',
         cName:'nav-text'
     },
     {
-        title:'Contact',
+        title:'Contacto',
         path:'/contact',
         cName:'nav-text'
     }

@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Works from './pages/Works'
 import Contact from './pages/Contact'
 import Header from './Organisms/Header'
+import Footer from './Organisms/Footer'
 
 
 
@@ -17,6 +18,7 @@ const App = () =>(
         <Route path="/contact" exact component={Contact} />
       </Switch>
     </Router>
+    <Footer />
   </Fragment>
 )
 

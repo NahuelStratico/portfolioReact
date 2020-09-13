@@ -58,7 +58,7 @@ const Header = () => {
                     )
                 })}
                 <li className="nav-text">
-                    <a href="www.linkedin.com/in/nahuelstratico" target="blank">
+                    <a href="https://www.linkedin.com/in/nahuelstratico/" target="blank">
                         <FaIcons.FaLinkedinIn/> 
                     </a>
                 </li>

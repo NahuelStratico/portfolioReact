@@ -10,7 +10,7 @@
 }
 .home_title-content{
     margin-top: 4rem;
-    margin-left: 9rem;
+    margin-left: 3rem;
 }
 .home_title, .home_dev{
     font-family: var(--montserrat);
@@ -18,6 +18,7 @@
     color: var(--color-black);
     font-weight: 600;
     margin: 0;
+    text-align: left;
 }
 .home_dev{
     color:var(--color-blue) ;
@@ -94,6 +95,143 @@
     font-weight: 500;
 }
 
+
+/* ====================== icon animation */
+
+.icon_container{
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+    position: relative;
+}
+.icon{
+    background: url('../pages/dev.svg') no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-clip: border-box;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+}
+.ellipse-container{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    margin: 0 auto;
+    z-index: -1;
+}
+.ellipse{
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    border-style: solid;
+}
+.ellipse.thin{
+    width: 100%;
+    height: 100%;
+    border-width: 1px;
+    border-color: #494949;
+    opacity: .5;
+}
+.ellipse.thick{
+    width: 93%;
+    height: 93%;
+    border-width: 10px;
+    border-color: #fff;
+    transform: rotate(-45deg);
+    top: 12px;
+    left: 12px;
+}
+.ellipse.yellow{
+    width: 93%;
+    height: 93%;
+    border-width: 10px;
+    border-color: var(--color-blue) transparent;
+    transform: rotate(-45deg);
+    top: 12px;
+    left: 12px;
+    animation: ellipseRotate 15s ease-in-out infinite;
+}
+
+@keyframes ellipseRotate{
+    0%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(-405deg);
+    }
+}
+
+
+/* ========================== mas informacion sobre mi */
+.more_info{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 7rem;
+}
+.title_more-info{
+    text-align: center;
+    font-family: var(--montserrat);
+    font-size: 1.3em;
+    font-weight: 500;
+    color: var(--color-black);
+    margin-bottom: 3rem;
+}
+.button_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+.button_content-download, .button_content-more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+.button_content-download{
+    border-right: inset;
+}
+.button_content-download p, .button_content-more p{
+    font-family: var(--montserrat);
+    font-size: 1.1em;
+    color: var(--color-black);
+}
+.button_content-download button, .button_content-more button{
+    color: var(--color-blue);
+    border: 2px solid var(--color-blue);
+    border-radius: 5px;
+    padding: .6em;
+    transition: ease-in-out .3s;
+    background: none;
+    font-family: var(--montserrat);
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+}
+.button_content-download button:hover, .button_content-more button:hover{
+    background: var(--color-blue);
+    color: #ffffff;
+}
+.button_content-download button:focus, .button_content-more button:focus{
+    outline: none;
+}
+
+
+
+
 @media screen and (max-width: 768px){
     .container{
         margin: 0 2rem;
@@ -114,6 +252,10 @@
         font-size: 1.3em;
         text-align: left;
         line-height: 36px;
+    }
+    /* ============ animation */
+    .ellipse-container{
+        overflow: hidden;
     }
 }
 
@@ -136,5 +278,44 @@
         font-size: 1em;
         text-align: left;
         line-height: 26px;
+    }
+    /* ============ animation */
+    .icon_container{
+        margin: 6rem 0;
+    }
+    .ellipse-container{
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .ellipse.thin{
+        width: 97%;
+        height: 97%;
+        opacity: -0.5;
+    }
+    .ellipse.thick{
+        width: 73%;
+        height: 73%;
+    }
+    .ellipse.yellow{
+        width: 83%;
+        height: 83%;
+    }
+    .icon{
+        width: 180px;
+    }
+
+    /* ============ more info */
+    .button_container{
+        flex-direction: column;
+    }
+    .button_content-download, .button_content-more{
+        width: 70%;
+        padding: 1rem;
+    }
+    .button_content-download{
+        border-bottom: inset;
+        padding: 1rem 0 2rem 0;
+        border-right: none;  
     }
 }

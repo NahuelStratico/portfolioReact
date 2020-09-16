@@ -10,22 +10,22 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem
-                        src='./img/blue-app.jpg'
+                        src='./img/plataforma.jpg'
                         text='Plataforma educativa con React'
                         label='React'
-                        href=''
+                        href='https://github.com/NahuelStratico/react'
                         />
                         <CardItem
                         src='./img/blue-app.jpg'
                         text='Single Page Application con el objetivo de tener una base de datos con clientes y sus respectivos movimientos.'
                         label='Javascript - Node Js - MySQL'
-                        href=''
+                        href='https://blueapp2020.herokuapp.com/'
                         />
                         <CardItem
-                        src='./img/blue-app.jpg'
-                        text='Plataforma educativa con React'
-                        label='React'
-                        href='https://straticonahuel.000webhostapp.com/'
+                        src='./img/cvHtml.png'
+                        text='Mi CV en HTML5 y CSS3. Maquetación completa de mi hoja de vida.'
+                        label='HTML - CSS'
+                        href='https://github.com/NahuelStratico/MiCVenHTML'
                         />
                     </ul>
                 </div>

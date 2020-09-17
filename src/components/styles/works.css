@@ -1,3 +1,35 @@
+:root{
+    --montserrat: 'Montserrat', sans-serif;
+    --color-black: #00343D;
+    --color-blue: #1292EE;
+    --color-gray: #7C7C7C;
+}
+
 .container{
-    margin: 0 2rem;
+    margin: 0 4rem;
+    text-align: center;
+}
+
+.title_work{
+    font-family: var(--montserrat);
+    font-size: 2em;
+    color: var(--color-black);
+    font-weight: 500;
+    margin: 4rem 0 0 0;
+}
+.cards_container-works{
+    margin: 2rem 0 4rem 0;
+}
+
+@media only screen and (max-width:576px){
+    .container{
+        margin: 0 2rem;
+    }
+    .title_work{
+        font-size: 1.3em;
+        line-height: 30px;
+    }
+    .img_avatar{
+        width: 70%;
+    }
 }

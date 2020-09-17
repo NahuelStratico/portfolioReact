@@ -7,6 +7,8 @@
 
 .container{
     margin: 0 4rem;
+    padding: 0!important;
+    width: 90%;
 }
 .home_title-content{
     margin-top: 4rem;
@@ -20,7 +22,8 @@
     text-align: left;
 }
 .home_dev{
-    color:var(--color-blue) ;
+    color:var(--color-blue);
+    display: block;
 }
 .home_p{
     font-family: var(--montserrat);
@@ -30,6 +33,7 @@
     margin: 1rem 0;
     width: 70%;
     line-height: 36px;
+    text-align: left;
 }
 
 /* ================================== Sector github */
@@ -233,7 +237,7 @@
 
 @media screen and (max-width: 768px){
     .container{
-        margin: 0 2rem;
+        margin: 0 2rem!important;
     }
     .home_title-content{
         margin-top: 2rem;
@@ -262,7 +266,7 @@
 
 @media screen and (max-width: 576px){
     .container{
-        margin: 0 1rem;
+        margin: 0 1rem!important;
     }
     .home_title-content{
         margin-top: 2rem;

@@ -59,12 +59,20 @@ font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none !important;
+}
+.navbar_link:hover{
+    color: var(--color-black);
 }
 .logo{
     font-family: var(--montserrat);
     text-decoration: none;
     font-weight: 900;
     font-size: 1.4em;
+    color: var(--color-black);
+    text-decoration: none !important;
+}
+.logo:hover{
     color: var(--color-black);
 }
 .item_contact{
@@ -76,6 +84,7 @@ font-family: 'Montserrat', sans-serif;
     border-radius: 5px;
     padding: .6em;
     transition: ease-in-out .3s;
+    text-decoration: none !important;
 }
 .button_contact:hover{
     background: var(--color-blue);
@@ -134,7 +143,7 @@ font-family: 'Montserrat', sans-serif;
         justify-content: space-around;
         align-items: center;
         list-style: none;
-        height: 60px;
+        height: 100px;
         padding: 1rem 0;
     }
     .nav-text a{
@@ -172,6 +181,9 @@ font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (max-width: 576px){
+    .header_content{
+        margin: 0 1rem;
+    }
     .nav-menu{
         width: 70%;
     }

@@ -1,7 +1,57 @@
 :root{
+    --montserrat: 'Montserrat', sans-serif;
+    --color-black: #00343D;
     --color-blue: #1292EE;
+    --color-gray: #7C7C7C;
 }
 
 .container{
-    margin: 0 2rem;
+    margin: 0 4rem;
+    text-align: center;
+}
+
+.contact_title{
+    font-family: var(--montserrat);
+    font-size: 2em;
+    color: var(--color-black);
+    font-weight: 700;
+    margin: 4rem 0 0 0;
+}
+.contact_description{
+    font-family: var(--montserrat);
+    font-size: 1.4em;
+    color: var(--color-black);
+    font-weight: 500;
+    margin: 1rem 0 0 0;
+    line-height: 30px;
+}
+
+.form_contact{
+    width: 50%;
+    margin: 5rem auto;
+}
+.input_col{
+    display: flex;
+    flex-direction: column;
+}
+.form_contact label{
+    font-family: var(--montserrat);
+    font-size: 1em;
+    color: var(--color-gray);
+    font-weight: 500;
+    text-align: left;
+}
+.btn_contact{
+    font-family: var(--montserrat);
+    font-size: 1em;
+    width: 150px;
+    border-width: 2px;
+}
+
+
+@media only screen and (max-width:576px){
+    .container{
+        margin: 0 2rem;
+    }
+
 }

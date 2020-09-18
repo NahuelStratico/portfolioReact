@@ -9,18 +9,18 @@ const Contact = () => (
 
         <form className="form_contact">
             <div className="row">
-                <div className="col input_col">
+                <div className="col-12 col-lg-6 input_col">
                     <label>Email</label>
                     <input type="email" className="form-control"/>
                 </div>
-                <div className="col input_col">
+                <div className="col-12 col-lg-6 input_col">
                     <label>Nombre</label>
                     <input type="email" className="form-control"/>
                 </div>
             </div>
-            <div className="row mt-4 mb-4">
-                <div className="col input_col">
-                    <label>Mensaje</label>
+            <div className="row">
+                <div className="col-12 input_col">
+                    <label className="mensaje_label">Mensaje</label>
                     <textarea className="form-control" name="" id="" cols="30" rows="10"></textarea>
                 </div>
             </div>

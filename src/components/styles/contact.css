@@ -5,11 +5,6 @@
     --color-gray: #7C7C7C;
 }
 
-.container{
-    margin: 0 4rem;
-    text-align: center;
-}
-
 .contact_title{
     font-family: var(--montserrat);
     font-size: 2em;
@@ -30,9 +25,16 @@
     width: 50%;
     margin: 5rem auto;
 }
+.row{
+    width: 100%;
+    margin: 0;
+}
 .input_col{
     display: flex;
     flex-direction: column;
+}
+.mensaje_label{
+    margin-top: 1rem;
 }
 .form_contact label{
     font-family: var(--montserrat);
@@ -44,14 +46,34 @@
 .btn_contact{
     font-family: var(--montserrat);
     font-size: 1em;
+    font-weight: 500;
     width: 150px;
     border-width: 2px;
+    margin-top: 2rem;
 }
 
+@media only screen and (max-width:768px){
+    .form_contact{
+        width: 100%;
+    }
+    .input_col{
+        padding: 0;
+    }
+}
 
 @media only screen and (max-width:576px){
     .container{
-        margin: 0 2rem;
+        margin: 0 1rem!important;
+    }
+    .form_contact{
+        width: 100%;
+    }
+    .contact_title{
+        font-size: 1.5em;
+    }
+    .contact_description{
+        font-size: 1.1em;
+        line-height: 2px;
     }
 
 }

@@ -27,7 +27,7 @@ const Home = () => {
                         Mi experiencia principal es el Frontend, pero no dejo de hacer backend. <br/>
                         Disfruto de aprender, enseñar y compartir experiencias. <br/><br/>
                         Tengo como objetivo que las empresas con las cuales trabajo alcancen el exito y se sientan comodas con el trabajo que realizado. <br/> 
-                        Ademas de ser freelancer colaboro en voluntariados haciendo desarrollo web. 
+                        Ademas de ser freelancer colaboro en voluntariados como desarrollador web. 
                     
                     </p>
                 </div>

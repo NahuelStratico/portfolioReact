@@ -25,6 +25,7 @@ const Cards = () => {
                         Diseño web y de logotipo.
                         Tecnologías:
                         HTML | CSS | BOOTSTRAP | JAVASCRIPT | Google"
+                        href="http://www.lascanoestudio.com/"
                         />
                     </div>
                     <div className="col-12 col-lg-4 d-flex justify-content-center mb-4">
@@ -36,6 +37,7 @@ const Cards = () => {
                         Tecnologías:
                         HTML | CSS | BOOTSTRAP | JAVASCRIPT
                         BackEnd: PHP"
+                        href="https://www.estudiorottoli.com/"
                         />
                     </div>
                 </div>

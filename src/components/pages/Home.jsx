@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import '../styles/home.css'
 import Cards from '../Organisms/Cards'
+import nahuel from '../../assets/Nahuel.jpg'
 
 
 const Home = () => {
@@ -14,7 +15,25 @@ const Home = () => {
                 <p className="home_p">Si estas en esta web app es por que sos Select@r IT ó simplemente queres ver mis trabajos.</p>
             </div>
 
-            <div className="icon_container">
+            <div className="row img_row">
+                <div className="col-12 col-lg-6 d-flex justify-content-center">
+                    <div className="img_container">
+                        <img src={nahuel} alt="Mi foto" className="img-fluid img_nahuel"/>
+                    </div>
+                </div>
+                <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-start margen-top">
+                    <h5 className="title_me">Sobre mi</h5>
+                    <p className="text_me">
+                        Mi experiencia principal es el Frontend, pero no dejo de hacer backend. <br/>
+                        Disfruto de aprender, enseñar y compartir experiencias. <br/><br/>
+                        Tengo como objetivo que las empresas con las cuales trabajo alcancen el exito y se sientan comodas con el trabajo que realizado. <br/> 
+                        Ademas de ser freelancer colaboro en voluntariados haciendo desarrollo web. 
+                    
+                    </p>
+                </div>
+            </div>
+
+            <div className="icon_container d-none">
                 <div className="icon">
                     
                 </div>

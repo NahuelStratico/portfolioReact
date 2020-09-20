@@ -1,0 +1,33 @@
+:root{
+    --montserrat: 'Montserrat', sans-serif;
+    --color-black: #00343D;
+    --color-blue: #1292EE;
+    --color-gray: #7C7C7C;
+}
+
+.exito_container{
+    margin-top: 5rem!important;
+    margin-bottom: 4rem!important;
+}
+
+.exito_title{
+    margin-top: 1rem;
+    font-size: var(--montserrat);
+    font-size: 2em;
+    color: var(--color-black);
+    font-weight: 900;
+    line-height: 40px;
+}
+.exito_p{
+    margin-top: 2rem;
+    font-size: var(--montserrat);
+    font-size: 1.3em;
+    color: var(--color-black);
+    font-weight: 400;
+}
+.exito_btn{
+    font-size: var(--montserrat);
+    font-size: 1em;
+    font-weight: 400;
+    border-width: 2px!important;
+}

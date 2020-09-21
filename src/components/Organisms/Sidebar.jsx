@@ -3,7 +3,7 @@ import React from 'react'
 export const Sidebar = [
     {
         title:'Inicio',
-        path:'/',
+        path:'/portfolioReact',
         cName:'nav-text'
     },
     {

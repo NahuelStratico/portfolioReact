@@ -14,7 +14,7 @@ const Exito = () => (
             Mensaje Recibido. <br/>¡Gracias!
         </h4>
         <p className="exito_p">Me pondré en contacto.</p>
-        <Link to="/inicio" className="btn btn-outline-success exito_btn">
+        <Link to="/portfolioReact" className="btn btn-outline-success exito_btn">
             Volver a inicio
         </Link>
     </div>

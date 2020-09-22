@@ -17,7 +17,7 @@ const App = () =>(
         <Route path="/portfolioReact" exact component={Home} />
         <Route path="/works" exact component={Works} />
         <Route path="/contact" exact component={Contact} />
-        <Router path="/success" exact component={Exito} />
+        <Route path="/success" component={Exito} />
       </Switch>
     </Router>
     <Footer />

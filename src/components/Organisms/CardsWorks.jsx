@@ -14,7 +14,7 @@ const Cards = () => {
                         title="Giargia Construcciones"
                         description="Actualización de sitio web. 
                         Nuevo diseño y funcionalidades. Tecnologías: HTML | CSS | Javascript | PHP "
-                        href="https://nahuelstratico.github.io/Giargia-web/"
+                        href="http://giargiaconstrucciones.com.ar"
                         />
                     </div>
                     <div className="col-12 col-lg-4 d-flex justify-content-center mb-4">

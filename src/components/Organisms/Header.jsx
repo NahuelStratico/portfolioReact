@@ -19,7 +19,7 @@ const Header = () => {
     return (
         <Fragment>
             <header className="header">
-                <div className="header_content">
+                <div className="container header_content">
                     <div className="header_logo">
                         <NavLink className="logo" to="/portfolioReact/">
                                 StráticoDev

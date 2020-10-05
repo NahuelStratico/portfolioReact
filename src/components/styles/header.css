@@ -20,7 +20,7 @@ font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    margin: 0 4rem;
+    /* margin: 0 4rem; */
     height: 100%;
 }
 .header_logo{
